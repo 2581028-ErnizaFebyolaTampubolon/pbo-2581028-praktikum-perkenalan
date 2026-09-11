@@ -17,6 +17,9 @@ public class Main {
         double tinggi = scanner.nextDouble();
         scanner.nextLine();
 
+        System.out.print("Masukan asal kota : ");
+        String asalkota = scanner.nextLine();
+
 
     }
 }
