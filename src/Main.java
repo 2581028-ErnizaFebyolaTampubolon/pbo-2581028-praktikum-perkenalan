@@ -20,6 +20,8 @@ public class Main {
         System.out.print("Masukan asal kota : ");
         String asalkota = scanner.nextLine();
 
-
+        System.out.println(
+                "Hallo! Nama saya " + nama + " (NIM " + nim + ")" + ", umur " + umur + " tahun, tinggi " + tinggi + " cm, berasal dari " + asalkota + ".");
+        scanner.close();
     }
 }
